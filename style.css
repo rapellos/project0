@@ -1,4 +1,4 @@
-table,
+table
 td {
     border: 1px solid #333;
     border-collapse: collapse;
@@ -29,4 +29,13 @@ tbody {
 caption {
     padding: 10px;
     caption-side: bottom;
+}
+
+ol > li::before {
+    content: "\21d2 Destination:";
+}
+h1 {
+    font-weight:bold;
+    font-style: italic;
+    color: rgb(70, 5, 5);
 }
